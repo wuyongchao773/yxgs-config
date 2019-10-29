@@ -1,9 +1,0 @@
-server:
-  port: 5001
-
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          url: https://github.com/wuyongchao773/yxgs-config.git

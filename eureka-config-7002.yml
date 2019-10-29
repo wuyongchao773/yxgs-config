@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 7002
+
+spring:
+  profiles: dev #开发环境
+  application:
+    name: eureka-config-7002
+
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    prefer-ip-address: true
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka
+---
+server:
+  port: 7002
+
+spring:
+  profiles: prod #生产环境
+  application:
+    name: eureka-config-7002
+
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    prefer-ip-address: true
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka
