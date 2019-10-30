@@ -22,11 +22,11 @@ zuul:
     provider-user:
       path: /user/**
       serviceId: user-customer-provinder
-      stripPrefix: false  #´úÀí×ª·¢Ê±È¥µôÇ°×º£¬false:´úÀí×ª·¢Ê±²»È¥µôÇ°×º ÀıÈç:ÎªtrueÊ±ÇëÇó /product/get/1£¬´úÀí×ª·¢µ½/get/1
+      stripPrefix: false  #ä»£ç†è½¬å‘æ—¶å»æ‰å‰ç¼€ï¼Œfalse:ä»£ç†è½¬å‘æ—¶ä¸å»æ‰å‰ç¼€ ä¾‹å¦‚:ä¸ºtrueæ—¶è¯·æ±‚ /product/get/1ï¼Œä»£ç†è½¬å‘åˆ°/get/1
     provider-customer:
       path: /customer/**
       serviceId: user-customer-provinder
-      stripPrefix: false  #´úÀí×ª·¢Ê±È¥µôÇ°×º£¬false:´úÀí×ª·¢Ê±²»È¥µôÇ°×º ÀıÈç:ÎªtrueÊ±ÇëÇó /product/get/1£¬´úÀí×ª·¢µ½/get/1
+      stripPrefix: false  #ä»£ç†è½¬å‘æ—¶å»æ‰å‰ç¼€ï¼Œfalse:ä»£ç†è½¬å‘æ—¶ä¸å»æ‰å‰ç¼€ ä¾‹å¦‚:ä¸ºtrueæ—¶è¯·æ±‚ /product/get/1ï¼Œä»£ç†è½¬å‘åˆ°/get/1
 ---
 server:
   port: 8888
@@ -48,11 +48,11 @@ zuul:
     provider-user:
       path: /user/**
       serviceId: user-customer-provinder
-      stripPrefix: false  #´úÀí×ª·¢Ê±È¥µôÇ°×º£¬false:´úÀí×ª·¢Ê±²»È¥µôÇ°×º ÀıÈç:ÎªtrueÊ±ÇëÇó /product/get/1£¬´úÀí×ª·¢µ½/get/1
+      stripPrefix: false  #ä»£ç†è½¬å‘æ—¶å»æ‰å‰ç¼€ï¼Œfalse:ä»£ç†è½¬å‘æ—¶ä¸å»æ‰å‰ç¼€ ä¾‹å¦‚:ä¸ºtrueæ—¶è¯·æ±‚ /product/get/1ï¼Œä»£ç†è½¬å‘åˆ°/get/1
     provider-customer:
       path: /customer/**
       serviceId: user-customer-provinder
-      stripPrefix: false  #´úÀí×ª·¢Ê±È¥µôÇ°×º£¬false:´úÀí×ª·¢Ê±²»È¥µôÇ°×º ÀıÈç:ÎªtrueÊ±ÇëÇó /product/get/1£¬´úÀí×ª·¢µ½/get/1
+      stripPrefix: false  #ä»£ç†è½¬å‘æ—¶å»æ‰å‰ç¼€ï¼Œfalse:ä»£ç†è½¬å‘æ—¶ä¸å»æ‰å‰ç¼€ ä¾‹å¦‚:ä¸ºtrueæ—¶è¯·æ±‚ /product/get/1ï¼Œä»£ç†è½¬å‘åˆ°/get/1
 ---
 server:
   port: 8888
@@ -74,8 +74,8 @@ zuul:
     provider-user:
       path: /user/**
       serviceId: user-customer-provinder
-      stripPrefix: false  #´úÀí×ª·¢Ê±È¥µôÇ°×º£¬false:´úÀí×ª·¢Ê±²»È¥µôÇ°×º ÀıÈç:ÎªtrueÊ±ÇëÇó /product/get/1£¬´úÀí×ª·¢µ½/get/1
+      stripPrefix: false  #ä»£ç†è½¬å‘æ—¶å»æ‰å‰ç¼€ï¼Œfalse:ä»£ç†è½¬å‘æ—¶ä¸å»æ‰å‰ç¼€ ä¾‹å¦‚:ä¸ºtrueæ—¶è¯·æ±‚ /product/get/1ï¼Œä»£ç†è½¬å‘åˆ°/get/1
     provider-customer:
       path: /customer/**
       serviceId: user-customer-provinder
-      stripPrefix: false  #´úÀí×ª·¢Ê±È¥µôÇ°×º£¬false:´úÀí×ª·¢Ê±²»È¥µôÇ°×º ÀıÈç:ÎªtrueÊ±ÇëÇó /product/get/1£¬´úÀí×ª·¢µ½/get/1
+      stripPrefix: false  #ä»£ç†è½¬å‘æ—¶å»æ‰å‰ç¼€ï¼Œfalse:ä»£ç†è½¬å‘æ—¶ä¸å»æ‰å‰ç¼€ ä¾‹å¦‚:ä¸ºtrueæ—¶è¯·æ±‚ /product/get/1ï¼Œä»£ç†è½¬å‘åˆ°/get/1
