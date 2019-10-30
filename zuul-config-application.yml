@@ -10,7 +10,7 @@ spring:
     name: springcloud-zuul-8888
 eureka:
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
@@ -36,7 +36,7 @@ spring:
     name: springcloud-zuul-8888
 eureka:
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
@@ -62,7 +62,7 @@ spring:
     name: springcloud-zuul-8888
 eureka:
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
