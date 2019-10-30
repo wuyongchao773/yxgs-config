@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev #开发环境
   application:
-    name: eureka-config-7002
+    name: eureka7002.com
 
 eureka:
   instance:
@@ -26,7 +26,7 @@ server:
 spring:
   profiles: prod #生产环境
   application:
-    name: eureka-config-7002
+    name: eureka7002.com
 
 eureka:
   instance:

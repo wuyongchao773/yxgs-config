@@ -10,7 +10,7 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka7001.com
   client:
     registerWithEureka: false
     fetchRegistry: false
@@ -25,7 +25,7 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka7001.com
   client:
     registerWithEureka: false
     fetchRegistry: false
