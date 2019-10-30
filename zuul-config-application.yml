@@ -21,11 +21,11 @@ zuul:
   routes:
     provider-user:
       path: /user/**
-      serviceId: user-customer-provinder
+      serviceId: USER-CUSTOMER-PROVINDER
       stripPrefix: false  #代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1
     provider-customer:
       path: /customer/**
-      serviceId: user-customer-provinder
+      serviceId: CUSTOMER-CUSTOMER-PROVINDER
       stripPrefix: false  #代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1
 ---
 server:
@@ -47,11 +47,11 @@ zuul:
   routes:
     provider-user:
       path: /user/**
-      serviceId: user-customer-provinder
+      serviceId: USER-CUSTOMER-PROVINDER
       stripPrefix: false  #代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1
     provider-customer:
       path: /customer/**
-      serviceId: user-customer-provinder
+      serviceId: CUSTOMER-CUSTOMER-PROVINDER
       stripPrefix: false  #代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1
 ---
 server:
@@ -73,9 +73,9 @@ zuul:
   routes:
     provider-user:
       path: /user/**
-      serviceId: user-customer-provinder
+      serviceId: USER-CUSTOMER-PROVINDER
       stripPrefix: false  #代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1
     provider-customer:
       path: /customer/**
-      serviceId: user-customer-provinder
+      serviceId: CUSTOMER-CUSTOMER-PROVINDER
       stripPrefix: false  #代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1
