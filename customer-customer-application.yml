@@ -1,0 +1,54 @@
+spring:
+  profiles:
+    active: dev
+---
+#编辑用户消费者开发环境
+server:
+  port: 9002
+spring:
+  profiles: dev
+  application:
+    name: user-customer-dev
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+feign:
+  hystrix:
+    enabled: true
+---
+#编辑用户消费者测试环境
+server:
+  port: 9002
+spring:
+  profiles: test
+  application:
+    name: user-customer-dev
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+feign:
+  hystrix:
+    enabled: true
+---
+#编辑用户消费者生产环境
+server:
+  port: 9002
+spring:
+  profiles: prod
+  application:
+    name: user-customer-dev
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+feign:
+  hystrix:
+    enabled: true

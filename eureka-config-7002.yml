@@ -6,7 +6,7 @@ server:
   port: 7002
 
 spring:
-  profiles: dev #¿ª·¢»·¾³
+  profiles: dev #å¼€å‘ç¯å¢ƒ
   application:
     name: eureka-config-7002
 
@@ -24,7 +24,7 @@ server:
   port: 7002
 
 spring:
-  profiles: prod #Éú²ú»·¾³
+  profiles: prod #ç”Ÿäº§ç¯å¢ƒ
   application:
     name: eureka-config-7002
 
