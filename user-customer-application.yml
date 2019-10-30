@@ -15,6 +15,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    preferIpAddress: true
 feign:
   hystrix:
     enabled: true
@@ -32,6 +35,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    preferIpAddress: true
 feign:
   hystrix:
     enabled: true
@@ -49,6 +55,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    preferIpAddress: true
 feign:
   hystrix:
     enabled: true
